@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Bits</title>
+    <link rel="stylesheet" href="loginstyle.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;600&display=swap" rel="stylesheet">
+<script src="./login.js"></script>
+</head>
+
+<body>
+    <img src="headimage-removebg-preview.png" class="hi" width="400" 
+    height="270">
+    <form action="" name="loginForm">
+        <h3>Login Here</h3>
+        <br />
+        <label id="e">Email</label> <br />
+        <input type="email" id="email" name="email" />
+        <br /><br>
+        <label id="p" >Password </label ><br>
+        <input
+          type="password"
+          id="password"
+          name="password"   />
+        <br /><br>
+        <input type="submit" id="submit" value="Login" onclick="tryLogin();"/><br>
+        <div>
+            <p>Forgot Password?</p>
+          <p>Don't have an account?
+         <a href="signup.html">Sign Up</a></p>
+        </div>
+      </form>
+</body>
+</html>

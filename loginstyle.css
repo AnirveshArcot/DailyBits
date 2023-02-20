@@ -1,0 +1,50 @@
+body
+{
+ background-image:url(newspaper\ background-safeimagekit.png);
+ font-family: 'Manrope', sans-serif;
+}
+.hi {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  form {
+    /* border: 1px solid blue; */
+    text-align: center;
+    background-color: rgb(223, 223, 220);
+    width: 30%;
+    margin: auto;
+    padding: 25px;
+    box-shadow: rgb(100 100 111 / 20%) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
+
+h3
+{
+  text-align: center;  
+}
+
+input[id="email"], input[id="password"]
+{
+    border-radius: 5px;
+    height: 22px;
+    border-color: rgb(39, 25, 127)
+}
+
+input[id="submit"]
+{
+    border-radius: 5px;
+    width: 50px;
+    height: 30px;
+    border-color: rgb(39, 25, 127)
+}
+
+input[id="submit"]:hover
+{
+    opacity: 0.8;
+}
+
+input[id="submit"]:active
+{
+    opacity: 0.4;
+}

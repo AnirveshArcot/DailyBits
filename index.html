@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+       Home Page
+    </title>
+    
+    <link rel="stylesheet" href="homestyle.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+  </head>
+
+  <body>
+    <header id="nav_main">
+      <div id="first">
+        <div id="second">
+          <div>
+              <a href="index.html" class="link">
+                <img
+                  src="headimage-removebg-preview.png"
+                  alt=""
+                  class="Logo"
+                />
+              </a>
+          </div>
+        </div>
+        </div>
+        </header>
+        <br><br><br><br><br><br>
+
+
+        <div id='cssmenu'>
+          <ul>
+          <li><a href="#" onclick="navBar(name);" name="india" ><span>India</span></a></li><br>
+          <li><a href="#" onclick="navBar(name);" name="Entertainment" ><span>Entertainment</span></a></li><br>
+          <li><a href="#" onclick="navBar(name);" name="Sports" ><span>Sports</span></a></li><br>
+          <li><a href="#" onclick="navBar(name);" name="Lifestyle" ><span>Lifestyle</span></a></li><br>   
+          <li><a href="#" onclick="navBar(name);" name="Business"><span>Business</span></a></li><br>
+          <li><a href="#" onclick="navBar(name);" name="World" ><span>World</span></a></li><br>  
+          <li><a href="login.html">Login</a></li><br>  
+          </ul>
+          </div>
+   <div id="t1">
+   <a id="link1" href=" "><img id="n1" width="550" height="350" src=""></a>
+    <p id="p1"><span id="para1span"> </span></p>
+    </div>
+    <a  id="link2" href=" "><img id="n2" width="350" height="250" src="https://yt3.ggpht.com/a-/AAuE7mAjCgbd8Wq35r6JNQr0xXzJZsZThycm7ayRFw=s900-mo-c-c0xffffffff-rj-k-no"></a>
+    <a id="link3"  href=" "><img id="n3" width="350" height="250" src="https://yt3.ggpht.com/a-/AAuE7mAjCgbd8Wq35r6JNQr0xXzJZsZThycm7ayRFw=s900-mo-c-c0xffffffff-rj-k-no"></a>
+    <a id="link4"  href=" "><img id="n4" width="350" height="250" src="https://yt3.ggpht.com/a-/AAuE7mAjCgbd8Wq35r6JNQr0xXzJZsZThycm7ayRFw=s900-mo-c-c0xffffffff-rj-k-no"></a>
+    <a  id="link5" href=" "><img id="n5" width="350" height="250" src="https://yt3.ggpht.com/a-/AAuE7mAjCgbd8Wq35r6JNQr0xXzJZsZThycm7ayRFw=s900-mo-c-c0xffffffff-rj-k-no"></a>
+    <p id="p2"><span id="para2span"> </span></p>
+    <p id="p3"><span id="para3span"> </span></p>
+    <p id="p4"><span id="para4span"> </span></p>
+    <p id="p5"><span id="para5span"> </span></p>
+    <form name="searchForm" class="example" action="">
+      <input type="text" placeholder="Search.." name="searchh">
+      <button type="submit" onclick="searchButton()"><i class="fa fa-search"></i></button>
+    </form>
+
+      <button id="DM">Dark Mode</button>
+      <div id = "MyClockDisplay" class = "clock" onload = "showTime()"> </div>  
+<script>  
+function showTime(){  
+    var date = new Date();  
+    var h = date.getHours();  
+    var m = date.getMinutes();  
+    var s = date.getSeconds();  
+    var session = "AM";  
+    if(h == 0) {  
+        h = 12;  
+    }  
+    if(h > 12) {  
+        hh = h - 12;  
+        session = "PM";  
+    }  
+    h = (h < 10) ? "0" + h : h;  
+    m = (m < 10) ? "0" + m : m;  
+    s = (s < 10) ? "0" + s : s;  
+    var time = h + ":" + m + ":" + s + " " + session;  
+    document.getElementById("MyClockDisplay").innerText = time;  
+    document.getElementById("MyClockDisplay").textContent = time;  
+    setTimeout(showTime, 1000);  
+}  
+showTime();
+</script>  
+      
+</body>
+<footer>
+  <script src="./index.js"></script>
+</footer>
+
+ 
+    </html>
+    
+     
+ 
